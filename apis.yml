@@ -1,9 +1,24 @@
 aid: mazamaenergy
-name: Mazamaenergy
-description: Mazamaenergy is a company surfaced as a portfolio company of khosla-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Mazama Energy
+description: Mazama Energy is a geothermal energy company reinventing power generation
+  with enhanced geothermal systems (EGS) that tap superhot rock to deliver universal,
+  scalable, clean, and affordable electricity. Its Thermal Lattice sequential-stimulation
+  technology improves connectivity between injectors and producers in super hot reservoirs
+  (SHR). The company is developing the Newberry project in Oregon and runs the Mazama
+  EMPOWER program, and is backed by Khosla Ventures. Headquartered in Frisco, Texas.
 url: https://raw.githubusercontent.com/api-evangelist/mazamaenergy/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://mazamaenergy.com/wp-content/uploads/2024/05/Mazama-Feature-Image.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +27,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Energy
+- Geothermal
+- Clean Energy
+- Renewable Energy
+- Enhanced Geothermal Systems
+- Power Generation
+- Climate Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mazamaenergy-domain-security.yml
 - type: Website
   url: https://mazamaenergy.com/
+- type: Blog
+  url: https://mazamaenergy.com/newsroom/
+- type: Support
+  url: https://mazamaenergy.com/contact-us/
+- type: TermsOfService
+  url: https://mazamaenergy.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://mazamaenergy.com/privacy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mazama-energy/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
