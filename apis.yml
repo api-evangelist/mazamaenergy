@@ -7,6 +7,17 @@ description: Mazama Energy is a geothermal energy company reinventing power gene
   (SHR). The company is developing the Newberry project in Oregon and runs the Mazama
   EMPOWER program, and is backed by Khosla Ventures. Headquartered in Frisco, Texas.
 url: https://raw.githubusercontent.com/api-evangelist/mazamaenergy/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
